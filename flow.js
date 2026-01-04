@@ -343,6 +343,7 @@ typingInput.addEventListener("input",()=>{
   }else if(nextIndex == spans.length){
     typingInput.disabled = true;
     
+    
     FinalPageShow();
 
     if (TimerType == backTimer){
