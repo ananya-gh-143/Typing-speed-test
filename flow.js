@@ -621,3 +621,9 @@ function personalBestResponsive(){
 }
 window.addEventListener("resize", personalBestResponsive);
 
+
+
+    //for control options
+
+
+

@@ -55,39 +55,44 @@
                 </div>
 
                 <div class="show-controls">
-                    <div class="difficulty control">
-                        <p>Difficulty: </p>
-                        <input type="radio" id="difficulty-easy" name="difficulty-option">
-                        <label for="difficulty-easy">Easy</label>
-                        <input type="radio" id="difficulty-medium" name="difficulty-option">
-                        <label for="difficulty-medium">Medium</label>
-                        <input type="radio" id="difficulty-hard" name="difficulty-option">
-                        <label for="difficulty-hard">Hard</label>
+
+                    <div class="radio-controls">
+                        <div class="difficulty control">
+                            <p>Difficulty: </p>
+                            <input type="radio" id="difficulty-easy" name="difficulty-option">
+                            <label for="difficulty-easy">Easy</label>
+                            <input type="radio" id="difficulty-medium" name="difficulty-option">
+                            <label for="difficulty-medium">Medium</label>
+                            <input type="radio" id="difficulty-hard" name="difficulty-option">
+                            <label for="difficulty-hard">Hard</label>
+                        </div>
+
+                        <div class="mode control">
+                            <p>Mode: </p>
+                            <input type="radio" id="mode-timed" name="mode-option">
+                            <label for="mode-timed">Timed</label>
+                            <input type="radio" id="mode-passage" name="mode-option">
+                            <label for="mode-passage">Passage</label>
+                        </div>
                     </div>
 
-                    <div class="mode control">
-                        <p>Mode: </p>
-                        <input type="radio" id="mode-timed" name="mode-option">
-                        <label for="mode-timed">Timed</label>
-                        <input type="radio" id="mode-passage" name="mode-option">
-                        <label for="mode-passage">Passage</label>
-                    </div>
+                    <div class="select-controls">
+                        <div class="timed control">
+                            <label for="time-options">Timer: </label>
+                            <select name="time-options" id="time-options">
+                                <option value="120sec">120 seconds</option>
+                                <option value="60sec" selected>60 seconds</option>
+                                <option value="30sec">30 seconds</option>
+                            </select>
+                        </div>
 
-                    <div class="timed control">
-                        <label for="time-options">Timer: </label>
-                        <select name="time-options" id="time-options">
-                            <option value="120sec">120 seconds</option>
-                            <option value="60sec" selected>60 seconds</option>
-                            <option value="30sec">30 seconds</option>
-                        </select>
-                    </div>
-
-                    <div class="type control">
-                        <label for="type-options">Text Type: </label>
-                        <select name="type-options" id="type-options">
-                            <option value="normal" selected>Normal</option>
-                            <option value="code">Coding</option>
-                        </select>
+                        <div class="type control">
+                            <label for="type-options">Text Type: </label>
+                            <select name="type-options" id="type-options">
+                                <option value="normal" selected>Normal</option>
+                                <option value="code">Coding</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
