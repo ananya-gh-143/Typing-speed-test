@@ -170,7 +170,7 @@ function DefaultControls(){
 }
 
 starterPage.addEventListener("click",()=>{
-    DefaultControls();   
+    ResetGame();
     starterPage.classList.add("disappearance");
 })
 
